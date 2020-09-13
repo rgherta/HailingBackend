@@ -1,0 +1,26 @@
+API endpoint: http://localhost:8080
+WebChannel endpoint: http://localhost:8081
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+Sep 28, 2019 3:50:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Sep 28, 2019 3:50:05 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /api
+Sep 28, 2019 3:50:05 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /favicon.ico
+Sep 28, 2019 3:50:21 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /beta-/europe-west1/api
+Sep 28, 2019 3:50:24 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /beta-/europe-west1/api
+Sep 28, 2019 3:50:33 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /beta-94f76/europe-west1/api
+Sep 28, 2019 3:50:37 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /beta-94f76/europe-west1/api
+Sep 28, 2019 3:50:38 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /beta-94f76/europe-west1/api
+*** shutting down gRPC server since JVM is shutting down
+*** server shut down
